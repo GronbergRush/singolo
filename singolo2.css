@@ -1,0 +1,195 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1020px;
+    position: relative;
+    font-family: 'Lato', Verdana, sans-serif;
+}
+
+/*Portfolio*/
+
+.portfolio {
+    height: 870px;      
+    background-color: #2d303a;
+    border-bottom: solid 6px #323746;      
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #767e9e;
+}
+
+.portfolio_title {
+    position: absolute;
+    top: 68px;
+    left: 40px;
+}
+
+.portfolio_examples {
+    position: absolute;
+    top: 186px;
+    left: 30px;
+}
+
+.portfolio_imageSelect {    
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.portfolio_imageSelect li {
+    width: 220px;
+    height: 187px;
+    margin: 10px;
+    background-image: url(./assets/image/Port_back.png);
+}
+
+.portfolio_imageSelect li:nth-child(1n + 13) {
+    display: none;
+}
+
+
+h2 {    
+    font-size: 30px;
+    line-height: 21px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left; 
+    letter-spacing: -0.24px;
+}
+
+.portfolio_navigation {
+    position: absolute;
+    top: 155px;
+    left: 41px;  
+}
+
+.portfolio_navigationList {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.portfolio_navigationList li {
+    height: 22px;
+    width: auto;
+    margin-right: 10px;
+    font-size: 11px;
+    line-height: 22px;
+    color: #767e9e;    
+    font-weight: 400;
+    text-align: left;
+    line-height: 12px;
+    border-radius: 5px;
+    border: 1px solid #666d89;
+    padding: 4px 6px;
+    letter-spacing: 0.48px;
+}
+
+.portfolio_description p {
+    position: absolute;
+    top: 122px;
+    left: 40px;
+    font-size: 18px;
+    line-height: 15px;
+    color: #767e9e;    
+    font-weight: 300;
+    text-align: left;
+}
+
+.white_button a {
+    color: #dedede;
+}
+
+.portfolio_navigationList a:hover {
+    color: #fff;
+    border-color: #fff;
+    background-color: gray;
+}
+
+/*About Us*/
+
+.aboutUs {
+    height: 734px;
+    background-color: #f2f2f2;
+    border-bottom: solid 6px #ffffff;
+}
+
+.aboutUs_title {    
+    top: 68px;
+    left: 40px;    
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    text-align: left;
+}
+
+.aboutUs_description {
+    top: 95px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    text-align: left;
+    width: 940px;
+    text-align: justify;
+}
+
+.aboutUs_personImage {
+    max-width: 300px;    
+}
+
+.authors {        
+    display: flex;
+    justify-content: space-between;
+    top: 140px;
+    padding: 0 30px;
+}
+
+.aboutUs_name {
+    font-size: 18px;
+    line-height: 47px;
+    color: #666d89;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: -0.2px;
+}
+
+.aboutUs_person {
+    padding: 0 10px;
+}
+
+.aboutUs_personDescription {
+    bottom: 5px;
+    font-size: 12px;
+    line-height: 21px;
+    color: #767e9e;
+    font-weight: 400;
+    text-align: left;
+    text-align: justify;
+}
+
+.social_icon {    
+    margin-right: 140px;
+    display: flex;
+    justify-content: start; 
+    top: 19px;
+    left: 1px;       
+}
+
+.social_icon a {
+    margin-right: 8px;
+}
+
+.social_icon a:hover {
+    width: 32px;
+    height: 32px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 50%;        
+}
+
